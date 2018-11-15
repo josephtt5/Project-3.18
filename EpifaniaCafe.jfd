@@ -1,0 +1,112 @@
+JFDML JFormDesigner: "6.0.4.1.172" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :p:14:p, comp scrollPane2:::p:113:p, space :p:38:p, comp scrollPane3:::p::p, space ::83:x, comp scrollPane4:::p:137:p, space :p:86:p}, seq {space :p:41:p, comp radioButton1:::p:118:p, space :p:56:p, comp radioButton2:::p:109:p, space ::264:x}, seq l {space :p:20:p, comp textField1:::p:99:p, space s:::p, par l {seq {par l:::p {comp scrollPane7:::::x, comp scrollPane6::l:::x, comp scrollPane1:::p:60:p, comp scrollPane5::l:::x}, space :::x, par l {seq {par l {comp textField2:::p:134:p, comp textField4::t:p:134:p, comp textField5::t:p:134:p}, space s:::p, comp textField3:::p:131:p}, seq l {space :p:6:p, comp textField6:::p:191:p}}, space ::87:x}, seq {par l:::p {seq {comp scrollPane8:::p:112:p, space s:::p, comp textField7:::p:113:p}, seq l {comp scrollPane9:::p:61:p, space s:::p, comp textField8:::::x}}, space ::208:x}}}}"
+			"$verticalGroup": "par l {seq l {space :::p, par t {comp scrollPane4:::p::p, comp scrollPane2:::p::p, comp scrollPane3:::p::p}, space s:::p, par l {comp textField1:::p:120:p, par t:l::p {comp textField3::l:::x, seq l {par t {comp textField2:::p::p, comp scrollPane1:::p::p}, space u:::p, par l {comp scrollPane5:::p::p, comp textField4:::p::p}, space :::p, par l {comp scrollPane6:::p::p, comp textField5:::p::p}}}}, space :::p, par t {comp scrollPane7:::p::p, comp textField6:::p::p}, space s:::p, par l {comp scrollPane8:::p::p, comp textField7:::p::p}, space s:::p, par l {comp scrollPane9:::p::p, comp textField8:::p::p}, space ::56:x, par b {comp radioButton1::b:p:44:p, comp radioButton2::b:p:44:p}, space :p:68:p}}"
+		} ) {
+			name: "this"
+			"title": "ORDERS"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane1"
+					"text": "Order:"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane3"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane2"
+					"text": "Customer:"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane4"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane3"
+					"text": "Daily Profit:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField3"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton1"
+				"text": "ACCEPT ORDER"
+			} )
+			add( new FormComponent( "javax.swing.JRadioButton" ) {
+				name: "radioButton2"
+				"text": "REJECT ORDER"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane4"
+					"text": "Name:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane5"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane5"
+					"text": "Surname:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField4"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane6"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane6"
+					"text": "Phone Num:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField5"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane7"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+					"text": "Email:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField6"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane8"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea2"
+					"text": "Member Cart"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField7"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane9"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane7"
+					"text": "Address:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField8"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 590, 500 )
+		} )
+	}
+}

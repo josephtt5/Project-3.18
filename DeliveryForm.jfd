@@ -1,0 +1,78 @@
+JFDML JFormDesigner: "6.0.4.1.172" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {space :::p, par t:::p {comp scrollPane6::::82:x, comp scrollPane5::::82:x, comp scrollPane4::::82:x, comp scrollPane2::::82:x, comp scrollPane1::::82:x, comp scrollPane3::t::82:x}, space s:::p, par l {seq {par l {comp textField1::::154:x, comp textField2:::::x}, space :p:138:p}, seq {par l {comp textField3:::p:230:p, comp textField4:::p:199:p, comp checkBox1::l:p:136:p, comp textField5::l:p:173:p}, space ::62:x}}}}"
+			"$verticalGroup": "par l {seq l {space :p:20:p, par l {comp scrollPane1:::p::p, comp textField1:::p::p}, space u:::p, par l:::p {comp scrollPane2:::::x, comp textField2::::25:x}, space :::p, par l {comp scrollPane3:::p::p, comp textField3::::0:x}, space u:::p, par t {comp scrollPane4:::p::p, comp textField4:::p::p}, space u:::p, par t {comp scrollPane5:::p::p, comp checkBox1:::p::p}, space u:::p, par t {comp scrollPane6:::p::p, comp textField5:::p::p}, space ::36:x}}"
+		} ) {
+			name: "this"
+			"title": "DELIVERY"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane1"
+					"text": "Name:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+					"text": "Surname:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField2"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane3"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea2"
+					"text": "Email:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField3"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane4"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane2"
+					"text": "Address:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField4"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane5"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane3"
+					"text": "Member Cart:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "checkBox1"
+				"text": "If you have one"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane6"
+				add( new FormComponent( "javax.swing.JTextPane" ) {
+					name: "textPane4"
+					"text": "Phone Num:"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField5"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 10 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
